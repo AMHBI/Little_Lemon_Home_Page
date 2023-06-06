@@ -68,10 +68,36 @@ img.article-img{
     background-color: #F1FAEE;
     border: 1px solid #1D3557;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px #1D3557;
-
+    box-shadow: 0px 0px 15px 2px #1D3557;
 }
 
+.second-row h3.article-heading {
+    font-size: 2.5rem;
+    color: #E63946;
+}
+.second-row p.article-text {
+    font-size: 1rem;
+    color: #1D3557;
+    text-align: justify;
+}
+.article button {
+    align-self: self-end;
+}
+.article button:hover {
+    background-color: #64a6a8;
+    cursor: pointer;
+}
+.article .article-button {
+    width: 100%;
+    height: 8%;
+    font-size: 1rem;
+    margin-top: 1.5vh;
+    background-color: #A8DADC;
+    color: #E63946;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+}
 .first-row-article {
     grid-area: fir;
     margin-top: 2rem;
@@ -124,7 +150,4 @@ img.article-img{
     to {scale: 1.2;}
   }
 
-.second-row h3.article-heading {
-    font-size: 2.5rem;
-    color: #E63946;
-}
+
